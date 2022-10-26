@@ -74,9 +74,11 @@ button {
   margin: auto;
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
+  transition:0.15s;
 }
 button:hover {
   background-color: rgba(0, 0, 0, 0.6);
+  transition:0.15s;
 }
 .searchBar {
   width: 80%;
@@ -89,9 +91,11 @@ button:hover {
   margin: 2em;
   margin-right: 0em;
   background-color: rgba(0, 0, 0, 0.7);
+  transition:0.15s;
 }
 .searchBar:hover {
   background-color: rgba(0, 0, 0, 0.6);
+  transition:0.15s;
 }
 .searchBar::placeholder {
   color: rgba(256, 256, 256, 0.8);
